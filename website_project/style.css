@@ -1,0 +1,64 @@
+/* General body styles */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    /* Updated background to a linear gradient */
+    background: linear-gradient(to right, #d4fc79, #96e6a1);
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Container for the main content */
+.container {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.9); /* Added some transparency */
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px-12px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 90%;
+    backdrop-filter: blur(10px); /* Frosted glass effect */
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+/* Header styles */
+header h1 {
+    color: #2c3e50;
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+}
+
+/* Main content paragraph styles */
+main p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 1.5em;
+}
+
+/* Call-to-action button styles */
+.cta-button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1em;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.cta-button:hover {
+    background-color: #2980b9;
+    transform: translateY(-2px); /* Slight lift on hover */
+}
+
+/* Footer styles */
+footer {
+    margin-top: 30px;
+    font-size: 0.9em;
+    color: #7f8c8d;
+}
